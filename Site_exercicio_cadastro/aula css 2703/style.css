@@ -1,0 +1,26 @@
+.div-pai{
+    width:80%;
+    height: 400px;
+    background-color: beige;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-direction: column;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+.cor1 {
+    background-color: violet;
+    align-self: flex-end;
+}
+.cor2 {
+    background-color: aqua;
+}
+.cor3 {
+    background-color: chartreuse;
+    align-self: flex-start;
+}
